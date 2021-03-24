@@ -3,7 +3,6 @@ const search = document.querySelector('input')
 const message1 = document.querySelector('#message-1')
 const message2 = document.querySelector('#message-2')
 
-
 weatherForm.addEventListener('submit',(event)=>{
     event.preventDefault()
     const location = 'http://localhost:3000/weather?address='+search.value
